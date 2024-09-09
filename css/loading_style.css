@@ -1,0 +1,156 @@
+body{
+    background-image: url(../img/back2.png);
+    background-size: auto;
+}
+
+.total{
+    position: fixed;
+    height: 30%;
+    width: 20%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* <!-- Using the custom property `--i` to calculate the animation duration. --> */
+  li {
+    animation-name: lowerCase;
+    animation-duration: calc(var(--i) * 2s);
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  li:nth-child(1) {
+  white-space: nowrap; /* 줄바꿈x */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  position: fixed;
+  width: 20%;
+  left: 0;
+  top: 0;
+  font-size: 200%;
+  margin: 0;
+  }
+
+  li:nth-child(2) {
+    white-space: nowrap; /* 줄바꿈x */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    position: fixed;
+    width: 40%;
+    left: 0;
+    top: 0;
+    font-size: 200%;
+    margin: 0;
+    color: white;
+    }
+
+    li:nth-child(3) {
+        white-space: nowrap; /* 줄바꿈x */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65%;
+        position: fixed;
+        width: 23%;
+        left: 0;
+        top: 0;
+        font-size: 300%;
+        margin: 0;
+        }
+
+        li:nth-child(4) {
+            white-space: nowrap; /* 줄바꿈x */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80%;
+            position: fixed;
+            width: 58%;
+            left: 0;
+            top: 0;
+            font-size: 500%;
+            margin: 0;
+            color: white;
+            }
+
+            li:nth-child(5) {
+                white-space: nowrap; /* 줄바꿈x */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 94.5%;
+                position: fixed;
+                width: 85%;
+                left: 0;
+                top: 0;
+                font-size: 200%;
+                margin: 0;
+                }
+
+                li:nth-child(6) {
+                    white-space: nowrap; /* 줄바꿈x */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 97%;
+                    position: fixed;
+                    width: 98%;
+                    left: 0;
+                    top: 0;
+                    font-size: 200%;
+                    margin: 0;
+                    color: white;
+                    }
+
+                    li:nth-child(7) {
+                        white-space: nowrap; /* 줄바꿈x */
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 99%;
+                        position: fixed;
+                        width: 116%;
+                        left: 0;
+                        top: 0;
+                        font-size: 200%;
+                        margin: 0;
+                        }
+
+                        li:nth-child(8) {
+                            white-space: nowrap; /* 줄바꿈x */
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100%;
+                            position: fixed;
+                            width: 140%;
+                            left: 0;
+                            top: 0;
+                            font-size: 200%;
+                            margin: 0;
+                            }
+
+  @keyframes lowerCase {
+    80% {
+      text-transform: lowercase;
+    }
+    100% {
+      text-transform: uppercase;
+    }
+  }
+
+@media screen and (max-width: 1025px) {
+	body{
+        background-image: url(../img/backmo.jpg);
+    }
+}
